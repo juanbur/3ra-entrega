@@ -1,0 +1,16 @@
+- ver @if en sass cómo funciona min 20
+- iteradores min 24
+- ver iteradores, variables, operaciones y condicionales en scss
+- ver !default en scss min 34.43
+- @else que es?
+- @for $i from 1 through 6 (hasta 6 inclusive) / fron 1 to 6 (no llega a 6)
+- te pueden importar variables y uno poner iteradores para condicionar esas variables.. Ej @import "variables-que-mandaron.scss
+- @heach sirve para agregar varias imagenes a la vez. min 48
+- mapas min 51.46
+- para que nodemon empieze a corer en mi scss poner npm run watch-css.
+- @extend minuto 1.16
+- @mixins min 1.20
+- sassmaister.com permite testear codigo sass en el explorador 
+- coolors.co , es para hacer una paleta y te pasa todo el codigo en sass
+- live sass compiler es un tamplete para no usar la consola.
+- colourco.de para encontrar paletas copadas
