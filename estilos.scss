@@ -1,3 +1,18 @@
-.color{
-    background-color: red;
+.contenedor{
+    position: relative;
+    // display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #ecf0f1;
+    font-size: 6rem;
+    text-shadow: 1px 1px 1px rgb(71, 71, 71);
 }
