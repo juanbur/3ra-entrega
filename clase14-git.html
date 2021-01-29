@@ -1,0 +1,55 @@
+- instalacion en min 14
+- gitignore es para ignorar archivos. min 23 (node_modules y DS_STORE)
+- touch yelnombre.txt para crear archivos desde consola.
+- git status en consola. min 26.
+- git add en consola min 29
+- git commit min 31
+- descargar git lens en vs code
+- git log oneline es para ver todos los commit 148 min
+- para volver a un cambio git checkout y el hash de donde quiero estar 148 min.
+-   git checkout -b NombreNuevaRama(creo una nueva rama)
+-   git branch -D nombreDeLaClase (borro una clase).
+
+1. git init, iniciar un proyecto de git
+- si los archivos aparecen verde todo OK
+- La U que aparece, es de untructe significa que los archivos no estan siendo trackeados.
+- si quiero eliminar git de mi directorio puedo eliminar la carpeta desde el finder.
+-   touch yelnombre.txt para crear un nuevo file desde la consola.
+- control+c para salir de donde estoy
+
+
+-    git branch -l (sirve para ver cuantas ramas tengo)
+-   git checkout master (me cierra y me lleva a master)
+-    git checkout -b clase14-test (crea y se dirige a una nueva rama)
+-   git merge (une dos clases y las compila) (hay que pararse en la rama desde la que quiero traer la otra)
+
+-    ls -la se pone para ver en que carpeta estamos parados.
+-    mkdir (nombrecarpeta) es para crear un nuevo directorio
+-   cd (nombreCarpeta) es para meterse adentro de la carpeta
+-   code . (abre vscode)
+-   git init y conecta git al proyecto
+-   git status , muestra si algo se cambio desde que se conectó git
+-   touch index.html(te crea un archivo)
+-   gid add  . (agrega el archivo a gid)
+-   gid status (para ver el estado de gid)
+-   git commit -m "commit inicial" ya está commitiado por git
+-   git checkout -b dev (crea una nueva rama llamada dev), pero hay muchos desarrolladores que usan la rama dev, hago una nueva rama partiendo desde dev, entonces:
+-   git checkout -b feature/cambiar-index
+- modifico el index.html y lo guardo
+-   git status (aparece que el index esta modificado).
+-   git add .
+-   git commit -m "termine con el index".
+-   git checkout master (es para cambiar a la rama master, pero no va a estar el index modificado ahora.)
+-   git ckeckout dev (tampoco tiene los cambios)
+-   git merge feature/cambiar-index (cuenta como un commit para el sistema y agrega todos los cambios al index)
+-   git checkout -b feature/agregar-imagenes (agrego otra rama desde dev)(el -b crea una nueva rama y se cambia a ella desde un solo comando, a diferencia de git brunch que solo crea una rama)
+- agrego las imagenes al index.
+-   git add  .
+-   git commit -m "agregue las imagenes pedidas"
+-   git checkout dev (vuelvo a dev)
+- si quiero hacer un cambio en feature/agregar-imagenes:
+-   git checkout feature/agregar-imagenes (hago el cambio en el index)
+-   git add
+-   git commit -m "puse el add en las imagenes"
+-   git checkout master (no hay ninguno de los cambios que hice en las otras ramas)
+- lo deje en 11.54 min 
