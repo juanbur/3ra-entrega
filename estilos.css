@@ -11,7 +11,7 @@
           transform: translate(-50%, -50%);
 }
 
-h1 {
+.titulo {
   color: #ecf0f1;
   font-size: 6rem;
   text-shadow: 1px 1px 1px #474747;
@@ -70,12 +70,12 @@ span {
   margin-left: 1rem;
 }
 
-footer {
+.final {
   margin-top: 2rem;
 }
 
 @media (max-width: 900px) {
-  h1 {
+  .titulo {
     visibility: hidden;
   }
   .badge {
