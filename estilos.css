@@ -19,27 +19,47 @@ h1 {
 
 .section__article--1 {
   margin-top: 2rem;
-  background-color: #efe5dc;
+  background-color: #f7eade;
+}
+
+.section__article--1:hover {
+  border: 3px solid #cfd9db;
 }
 
 .section__article--2 {
   margin-top: 2rem;
-  background-color: #9b9692;
+  background-color: #d8cec7;
+}
+
+.section__article--2:hover {
+  border: 3px solid #cfd9db;
 }
 
 .section__article--3 {
   margin-top: 2rem;
-  background-color: #e2ccba;
+  background-color: #ebcaad;
+}
+
+.section__article--3:hover {
+  border: 3px solid #cfd9db;
 }
 
 .section__article--4 {
   margin-top: 2rem;
-  background-color: #e5ba97;
+  background-color: #e6d6ca;
+}
+
+.section__article--4:hover {
+  border: 3px solid #cfd9db;
 }
 
 .section__article--5 {
   margin-top: 2rem;
-  background-color: #9b8b7e;
+  background-color: #ccc5bf;
+}
+
+.section__article--5:hover {
+  border: 3px solid #cfd9db;
 }
 
 h2 {
@@ -52,5 +72,14 @@ span {
 
 footer {
   margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    visibility: hidden;
+  }
+  .badge {
+    visibility: hidden;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
