@@ -16,4 +16,41 @@ h1 {
   font-size: 6rem;
   text-shadow: 1px 1px 1px #474747;
 }
+
+.section__article--1 {
+  margin-top: 2rem;
+  background-color: #efe5dc;
+}
+
+.section__article--2 {
+  margin-top: 2rem;
+  background-color: #9b9692;
+}
+
+.section__article--3 {
+  margin-top: 2rem;
+  background-color: #e2ccba;
+}
+
+.section__article--4 {
+  margin-top: 2rem;
+  background-color: #e5ba97;
+}
+
+.section__article--5 {
+  margin-top: 2rem;
+  background-color: #9b8b7e;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+span {
+  margin-left: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
 /*# sourceMappingURL=estilos.css.map */

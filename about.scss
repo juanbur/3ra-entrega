@@ -1,0 +1,12 @@
+@import "colors.scss";
+@import "../css/reset.css";
+@import "variables.scss";
+
+* {
+    width: 800px;
+}
+
+.carol{
+    background-color: red;
+    color: blue;
+}

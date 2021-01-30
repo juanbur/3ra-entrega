@@ -1,0 +1,150 @@
+// NOTAS DE CLASE $primary: green;
+
+// h1 {
+//     font-size: 2rem;
+//     text-transform: uppercase;
+//     color: $primary;
+//     span {
+//         display: block;
+//         color: red;
+//     }
+//     p{
+//         margin-top: 3rem;
+//     }
+// }
+
+// p {
+//     font-size: 1rem;
+//     text-transform: uppercase;
+//     span {
+//         color: red;
+//     }
+// }
+// div {
+//     background-color: yellow;
+//     a {
+//         color: black;
+//         &:hover {
+//             background-color: darken($primary,10);
+//         }
+//     }
+// }
+// h3 {
+//     background-color: blue;
+//     p {
+//         background-color: red;
+//     }
+//     a {
+//         color: darken($primary,10);
+//     }
+// }
+// @import "css/style.css" CIERRE NOTAS DE CLASE
+
+
+
+@import "colors.scss";
+@import "../css/reset.css";
+@import "variables.scss";
+
+
+//colores
+$color-red: #FF375F;
+$color-blue: #0A84FF;
+$color-violet: #5E5CE6;
+$color-grey: #ecf0f1;
+$color-red-two: #FF2F55;
+$color1: #a97e56;
+$color2: #bb9877;
+$color3: #cdb198;
+$color4: #decbba;
+$color5: #efe5dc;
+
+
+
+
+* {
+	margin: auto;
+	max-width: $with;
+}
+
+h1.section__tittle--primary {
+	font-size: $size-title*2;
+	font-weight: bold;
+}
+
+h2 + p {
+    @if $padding < 10px {
+        padding: $padding;
+    } @else {
+        padding: 10px;
+    }
+	
+}
+
+li
+    .menu__item {
+	    padding-left: $padding*4;
+	    padding-right: $padding*4;
+}
+
+a
+    .navbar__logo {
+	padding-left: $padding;
+}
+
+div.container {
+    margin: 0;
+    padding: 0;
+    div.row {
+        margin:0;
+        div.section__article--1 {
+            background-color: $color1;
+            padding: $padding*2;
+            img {
+                width: 40%;
+                padding: $padding*2;
+            }
+            &:hover {
+                border: 3px solid darken($color-grey,10);
+                // transition: all 1s;
+            }
+        }
+        div.section__article--2 {
+            background-color: $color2;
+            padding: $padding*2;
+            margin: 0;
+            &:hover {
+                border: 3px solid darken($color-grey,10);
+                // transition: all 1s;
+            }
+        }
+        div.section__article--3 {
+            background-color: $color3;
+            padding: $padding*2;
+            &:hover {
+                border: 3px solid darken($color-grey,10);
+                // transition: all 1s;
+            }            
+        }
+        div.section__article--4 {
+            background-color: $color4;
+            padding: $padding*2;
+            margin-bottom: $margin*2;
+            &:hover {
+                border: 3px solid darken($color-grey,10);
+                // transition: all 1s;
+            }
+        }
+        div.section__article--5 {
+            background-color: $color5;
+            padding: $padding*2;
+            /*tengo que agregarle un margin bottom para contenerlo y no entiendo por qué!*/
+            margin-bottom: $margin*2;
+            margin-top: 0;
+            &:hover {
+                border: 3px solid darken($color-grey,10);
+                // transition: all 2s;
+            }
+        }
+    }
+}

@@ -1,3 +1,22 @@
+// @import "colors.scss";
+// @import "../css/reset.css";
+// @import "variables.scss";
+
+
+//colores
+$color-red: #FF375F;
+$color-blue: #0A84FF;
+$color-violet: #5E5CE6;
+$color-grey: #ecf0f1;
+$color-red-two: #FF2F55;
+$color1: #a97e56;
+$color2: #bb9877;
+$color3: #cdb198;
+$color4: #decbba;
+$color5: #efe5dc;
+
+
+
 .contenedor{
     position: relative;
     // display: inline-block;
@@ -15,4 +34,42 @@ h1 {
     color: #ecf0f1;
     font-size: 6rem;
     text-shadow: 1px 1px 1px rgb(71, 71, 71);
+}
+
+
+.section__article--1 {
+    margin-top: 2rem;
+    background-color: $color5;    
+}
+
+.section__article--2 {
+    margin-top: 2rem;
+    background-color: #9b9692;    
+}
+
+.section__article--3 {
+    margin-top: 2rem;
+    background-color: #e2ccba;    
+}
+
+.section__article--4 {
+    margin-top: 2rem;
+    background-color: #e5ba97;    
+}
+
+.section__article--5 {
+    margin-top: 2rem;
+    background-color: #9b8b7e;    
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+span {
+    margin-left: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
 }
