@@ -82,4 +82,20 @@ span {
     visibility: hidden;
   }
 }
+
+.tarjetas-grupo:hover {
+  border: 3px solid #cfd9db;
+}
+
+.about {
+  border: hidden;
+}
+
+.tarjeta:hover {
+  border: 3px solid #cfd9db;
+}
+
+.boton-hablemos {
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=estilos.css.map */

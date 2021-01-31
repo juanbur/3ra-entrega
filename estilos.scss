@@ -101,3 +101,18 @@ span {
         visibility: hidden;
     }
 }
+.tarjetas-grupo:hover {
+    border: 3px solid darken($color-grey,10);
+}
+
+.about {
+    border: hidden;
+}
+
+.tarjeta:hover {
+    border: 3px solid darken($color-grey,10);
+}
+
+.boton-hablemos {
+    margin-top: 1rem;
+}
