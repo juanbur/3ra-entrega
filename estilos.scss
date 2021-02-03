@@ -1,105 +1,106 @@
 
 @import "color.scss";
 @import "reset.css";
+@import "variables-new.scss";
 
 
-
-.contenedor{
+//video y titulo home
+div.contenedor{
     position: relative;
     // display: inline-block;
     text-align: center;
-}
-
-.centrado{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.titulo {
-    color: #ecf0f1;
-    font-size: 6rem;
-    text-shadow: 1px 1px 1px rgb(71, 71, 71);
-}
-
-
-.section__article--1 {
-    margin-top: 2rem;
-    background-color: $color1;  
-    &:hover {
-        border: 3px solid darken($color-grey,10);
-        // transition: all 1s;
-    }  
-}
-
-.section__article--2 {
-    margin-top: 2rem;
-    background-color: $color2;
-    &:hover {
-        border: 3px solid darken($color-grey,10);
-        // transition: all 1s;
+        .centrado{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+            .titulo {
+            color: #ecf0f1;
+            font-size: 6rem;
+            text-shadow: 1px 1px 1px rgb(71, 71, 71);
+            }    
+        }
     }
-}
-
-.section__article--3 {
-    margin-top: 2rem;
-    background-color: $color3;
-    &:hover {
-        border: 3px solid darken($color-grey,10);
-        // transition: all 1s;
-    }    
-}
-
-.section__article--4 {
-    margin-top: 2rem;
-    background-color: $color4;
-    &:hover {
-        border: 3px solid darken($color-grey,10);
-        // transition: all 1s;
-    }    
-}
-
-.section__article--5 {
-    margin-top: 2rem;
-    background-color: $color5; 
-    &:hover {
-        border: 3px solid darken($color-grey,10);
-        // transition: all 1s;
-    }   
-}
-
-h2 {
-    margin-top: 1rem;
-}
-
-span {
-    margin-left: 1rem;
-}
-
-.final {
-    margin-top: 2rem;
-}
+//mediaquery
 @media (max-width:900px){
-    .titulo{
-        visibility: hidden;
-    }
-    .badge {
-        visibility: hidden;
-    }
+        .titulo{
+            visibility: hidden;
+        }
+        .badge {
+            visibility: hidden;
+        }
 }
-.tarjetas-grupo:hover {
+
+//articulos home
+section div div div.section__article--1 {
+                    margin-top: $margin*2;
+                    background-color: $color1;  
+                        &:hover {
+                        border: 3px solid darken($color-grey,10);
+                        // transition: all 1s;
+                        }  
+                    }
+                    .section__article--2 {
+                    margin-top: $margin*2;
+                    background-color: $color2;
+                        &:hover {
+                        border: 3px solid darken($color-grey,10);
+                        // transition: all 1s;
+                        }
+                    }
+                    .section__article--3 {
+                    margin-top: $margin*2;
+                    background-color: $color3;
+                        &:hover {
+                        border: 3px solid darken($color-grey,10);
+                        // transition: all 1s;
+                        }    
+                    }
+                    .section__article--4 {
+                    margin-top: $margin*2;
+                    background-color: $color4;
+                        &:hover {
+                        border: 3px solid darken($color-grey,10);
+                        // transition: all 1s;
+                        }    
+                    }
+                    .section__article--5 {
+                    margin-top: $margin*2;
+                    background-color: $color5; 
+                        &:hover {
+                            border: 3px solid darken($color-grey,10);
+                            // transition: all 1s;
+                        }   
+                    }
+
+//titulos de los articulos
+h2 {
+    margin-top: $margin;
+}
+span {
+    margin-left: $margin;
+}
+
+//footer de todas las secciones
+footer.final {
+    margin-top: $margin*2;
+}
+
+//tarjetas de seccion servicios
+div.card-group:hover {
+            border: 3px solid darken($color-grey,10);
+            }
+
+//seccion about, tarjeta
+div div.about {
+        border: hidden;
+        }
+//seccion projects -->
+.card:hover {
     border: 3px solid darken($color-grey,10);
 }
 
-.about {
-    border: hidden;
-}
-
-.tarjeta:hover {
-    border: 3px solid darken($color-grey,10);
-}
-
+//seccion contactos
 .boton-hablemos {
-    margin-top: 1rem;
+    margin-top: $margin;
 }

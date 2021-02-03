@@ -1,10 +1,10 @@
 @import url(/Users/juanburgauer/Documents/3ra-entrega/reset.css);
-.contenedor {
+div.contenedor {
   position: relative;
   text-align: center;
 }
 
-.centrado {
+div.contenedor .centrado {
   position: absolute;
   top: 80%;
   left: 50%;
@@ -12,18 +12,27 @@
           transform: translate(-50%, -50%);
 }
 
-.titulo {
+div.contenedor .centrado .titulo {
   color: #ecf0f1;
   font-size: 6rem;
   text-shadow: 1px 1px 1px #474747;
 }
 
-.section__article--1 {
+@media (max-width: 900px) {
+  .titulo {
+    visibility: hidden;
+  }
+  .badge {
+    visibility: hidden;
+  }
+}
+
+section div div div.section__article--1 {
   margin-top: 2rem;
   background-color: #f7eade;
 }
 
-.section__article--1:hover {
+section div div div.section__article--1:hover {
   border: 3px solid #cfd9db;
 }
 
@@ -71,28 +80,19 @@ span {
   margin-left: 1rem;
 }
 
-.final {
+footer.final {
   margin-top: 2rem;
 }
 
-@media (max-width: 900px) {
-  .titulo {
-    visibility: hidden;
-  }
-  .badge {
-    visibility: hidden;
-  }
-}
-
-.tarjetas-grupo:hover {
+div.card-group:hover {
   border: 3px solid #cfd9db;
 }
 
-.about {
+div div.about {
   border: hidden;
 }
 
-.tarjeta:hover {
+.card:hover {
   border: 3px solid #cfd9db;
 }
 
